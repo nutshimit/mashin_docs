@@ -3,7 +3,12 @@ module.exports = {
     {
       type: "category",
       label: "General",
-      items: ["general/getting-started", "general/engage", "general/faq"],
+      items: [
+        "general/getting-started",
+        "general/glossary",
+        "general/engage",
+        "general/faq",
+      ],
     },
     {
       type: "category",
