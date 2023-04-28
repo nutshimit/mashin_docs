@@ -9,5 +9,14 @@ slug: ../build-index
 
 Welcome to the builder's section of the Mashin Wiki.
 
-Here, you will discover many development tools and resources in the
-mashin ecosystem. We are always adding new tools and frameworks as we learn about them so if you are working on something that should be included please reach out to us on
+Here, you will discover many development tools and resources in the Mashin ecosystem.
+
+# Development Guide
+
+- [Starter's Guide](build-guide.md) - High level overview on building a new provider.
+
+## Tools & Resources
+
+- [mashin_bindgen](https://crates.io/crates/mashin_bindgen) - Generate TypeScript binding for your provider and resources.
+- [Mashin SDK documentation](https://docs.rs/mashin_sdk) - Facilitate the creation of providers.
+- [Provider Starter](https://github.com/nutshimit/mashin_provider_starter) - Simple and clean foundation for building provider and resources.
