@@ -24,7 +24,7 @@ function HomeNav() {
   );
 
   const NavItem = ({ href, aosDelay, children }) => (
-    <Col xs={12} md={12} lg={6} className="homeNavItem rounded-lg">
+    <Col xs={12} md={12} lg={4} className="homeNavItem rounded-lg">
       <a
         href={href}
         className="h-100"
@@ -84,6 +84,27 @@ function HomeNav() {
             >
               Dive into creating custom providers and leveraging the Mashin SDK
               to extend and enhance your IaC solutions.
+            </Translate>
+          </p>
+        </NavItemContent>
+      </NavItem>
+      <NavItem href={useDocUrl("engage")} aosDelay="200">
+        <NavItemContent>
+          <NavItemTitle>
+            <Translate
+              id="homePage.navContainer.build.title"
+              description="Title of Build Navigator in Home page"
+            >
+              Engage
+            </Translate>
+          </NavItemTitle>
+          <p className="mx-auto small text-secondary px-4">
+            <Translate
+              id="homePage.navContainer.build.content"
+              description="Content of Build Navigator in Home page"
+            >
+              Get involved with Mashin by contributing code, submitting
+              improvements, and collaborating with the community.
             </Translate>
           </p>
         </NavItemContent>

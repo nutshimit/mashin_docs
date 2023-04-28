@@ -106,7 +106,7 @@ const config = {
           position: "right",
         },
         {
-          to: "docs/contributing",
+          to: "docs/engage#contribute-code",
           label: "Contribute",
           position: "right",
         },
