@@ -7,7 +7,9 @@ keywords: [glossary, questions, definitions]
 slug: ../glossary
 ---
 
-This glossary contains key terms and concepts related to the Mashin project. It is intended to help you better understand the terminology used throughout the documentation and discussions.
+This glossary contains key terms and concepts related to the Mashin project. Use it as a quick reference when exploring Mashin's documentation and participating in community discussions. 
+
+If you encounter any additional terms that warrant inclusion, please feel free to share your suggestions.
 
 ## Mashin 
 An open-source infrastructure as code (IaC) engine designed to manage and provision resources across various cloud platforms, built using the Rust programming language.
@@ -35,5 +37,3 @@ The Create, Read, Update, and Delete operations that define a resource's lifecyc
 
 ## Community
 The group of developers, DevOps professionals, and enthusiasts who contribute to the Mashin project by submitting code, sharing ideas, and collaborating on improvements.
-
-Use this glossary as a quick reference when exploring Mashin's documentation and participating in community discussions. If you encounter any additional terms that warrant inclusion, please feel free to share your suggestions.
