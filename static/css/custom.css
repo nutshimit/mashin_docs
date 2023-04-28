@@ -107,7 +107,7 @@ button.menu__button {
 
 /*  Contribute button */
 @media only screen and (min-width: 1024px) {
-  .navbar__inner a.navbar__item[href*='contributing'] {
+  .navbar__inner a.navbar__item[href*='engage'] {
     background: white;
     color: var(--ifm-color-primary);
     border: solid 1px var(--ifm-color-primary);
@@ -121,7 +121,7 @@ button.menu__button {
     font-weight: bold;
   }
 
-  .navbar__inner a.navbar__item[href*='contributing']:hover {
+  .navbar__inner a.navbar__item[href*='engage']:hover {
     background: var(--ifm-color-primary);
     color: white;
   }
