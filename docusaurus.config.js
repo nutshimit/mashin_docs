@@ -9,7 +9,6 @@ const config = {
   url: "https://docs.mashin.land",
   titleDelimiter: "·",
   baseUrl: "/",
-
   trailingSlash: false,
   onBrokenLinks: "log",
   onBrokenMarkdownLinks: "log",
