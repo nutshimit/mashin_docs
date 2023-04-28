@@ -24,7 +24,19 @@ module.exports = {
     {
       type: "category",
       label: "Build",
-      items: ["build/build-index", "build/build-guide"],
+      items: [
+        "build/build-index",
+        {
+          type: "category",
+          label: "Builders Starter's Guide",
+          items: [
+            "build/build-guide",
+            "build/build-edit-provider",
+            "build/build-edit-resource",
+            "build/build-cdylib",
+          ],
+        },
+      ],
     },
   ],
 };
